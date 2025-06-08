@@ -1,8 +1,8 @@
-# HyperWebLabs- Software Landing Page
+# HyperWebLabs- Landing Page
 
 A modern, responsive landing page template for software and SaaS companies, built with HTML5, CSS3, and JavaScript. Features dynamic header effects and Lottie animations for enhanced user experience.
 
-![Sasly Software Landing Page](sasly-software/assets/images/websit-demo.jpg)
+
 
 ## Features
 
@@ -43,12 +43,12 @@ A modern, responsive landing page template for software and SaaS companies, buil
 
 1. Clone the repository:
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/pritam-sudo/hyperweblabs.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd sasly-2
+cd HyperWebLabs
 ```
 
 3. Open `index.html` in your browser or use a local server.
@@ -56,7 +56,7 @@ cd sasly-2
 ## Project Structure
 
 ```
-sasly-2/
+HyperWebLabs/
 ├── common/              # Common assets
 │   ├── css/            # Global CSS files
 │   ├── fonts/          # Font files
