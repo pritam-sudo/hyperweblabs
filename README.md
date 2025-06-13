@@ -4,8 +4,8 @@ A modern, responsive landing page template for software and SaaS companies, buil
 
 ## Version Information
 
-**Current Version:** 0.2  
-**Last Updated:** December 2023
+**Current Version:** 0.3  
+**Last Updated:** 13 jun 2025
 
 ---
 
