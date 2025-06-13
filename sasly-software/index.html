@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html lang="zxx">
-    
+<!-- Replace these logo image lines in your code -->
 
+<!-- In the header (around line 69) -->
+<div class="site-branding"></div>
 <head>
         <!--====== Required meta tags ======-->
         <meta charset="utf-8">
@@ -74,24 +74,11 @@
                             <!--=== Main Menu ===-->
                             <nav class="main-menu">
                                 <ul>
-                                    <li class="menu-item"><a href="index.html">Home</a></li>
-                                    <li class="menu-item"><a href="about.html">About</a></li>
-                                    <li class="menu-item"><a href="product.html">Products</a></li>
-                                    <li class="menu-item has-children"><a href="#">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-grid.html">Blog Grid</a></li>
-                                            <li><a href="blog-standard.html">Blog Standard</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item has-children"><a href="#">Pages</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="pricing.html">Pricing</a></li>
-                                            <li><a href="faq.html">Faq</a></li>
-                                            <li><a href="contact.html">Contact Us</a></li>
-                                            <li><a href="404.html">404</a></li>
-                                        </ul>
-                                    </li>
+                                    <li class="menu-item"><a href="index.html">Home</a></li> 
+                                    <li class="menu-item has-children"><a href="product.html">Services</a></li>
+                                    <li class="menu-item"><a href="about.html">About</a></li> 
+                                    <li><a href="contact.html">Contact Us</a></li> 
+                                    <li><a href="blog-grid.html">Blog</a></li>
                                 </ul>
                             </nav>
                             <!--=== Sasly Nav Button ===-->
@@ -124,6 +111,41 @@
                 </div>
             </div>
         </header><!--====== End Header Area ======-->
+
+        <!--====== Mobile Header (only visible on mobile) ======-->
+        <header class="mobile-header d-block d-lg-none">
+            <div class="mobile-header-inner">
+                <div class="mobile-logo">
+                    <a href="index.html"><img src="assets/images/logo/logo-main.png" alt="Brand Logo" style="height:36px;"></a>
+                </div>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div class="mobile-menu-overlay"></div>
+            <nav class="mobile-nav-menu">
+                <div class="mobile-menu-close">
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul>
+                    <li style="animation-delay:0.1s"><a href="index.html">Home</a></li>
+                    <li style="animation-delay:0.2s"><a href="product.html">Services</a></li>
+                    <li style="animation-delay:0.3s"><a href="about.html">About</a></li>
+                    <li style="animation-delay:0.4s"><a href="contact.html">Contact Us</a></li>
+                    <li style="animation-delay:0.5s"><a href="blog-grid.html">Blog</a></li>
+                </ul>
+                <a href="contact.html" class="theme-btn style-one w-100 mt-3" style="animation-delay:0.6s">Get A Quote <i class="far fa-angle-double-right"></i></a>
+                <div class="mobile-social mt-4">
+                    <a href="#" style="animation-delay:0.7s"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" style="animation-delay:0.8s"><i class="fab fa-twitter"></i></a>
+                    <a href="#" style="animation-delay:0.9s"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" style="animation-delay:1s"><i class="fab fa-youtube"></i></a>
+                </div>
+            </nav>
+        </header>
+        <!--====== End Mobile Header ======-->
+
+
         <!--======  Smooth Wrapper  ======-->
         <div id="smooth-wrapper">
             <div id="smooth-content">
@@ -200,7 +222,7 @@
                                                 <!--===  Iconic Box  ===-->
                                                 <div class="sasly-iconic-box style-three mb-40" data-aos="fade-up" data-aos-duration="1400">
                                                     <div class="icon">
-                                                        <i class="far fa-paint-brush"></i>
+                                                        <i class="fas fa-paint-brush"></i>
                                                     </div>
                                                     <div class="content">
                                                         <h4 class="title">Web Designing</h4>
@@ -621,95 +643,77 @@
                            
                     </section><!--====== End Pricing Section  ======-->
                     
-                    <!--====== Start Testimonial Section =======-->
-                    <section class="testimonial-ss bg_cover pt-120 pb-120" style="background-image: url(assets/images/bg/testimonial-bg1.jpg);">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <!--=== Section Title  ===-->
-                                    <div class="section-title text-center mb-70" style="margin-top: 113px;">
-                                        <h2 class="text-anm" >We Have 1530+ Reviews <br>
-                                            Let’s Explore Clients Feedback </h2>
-                                    </div>
-                                </div>
+         <!--====== Start Testimonial Section =======-->
+            <section class="testimonial-ss bg_cover pt-80 pb-80" style="background-image: url(assets/images/bg/testimonial-bg1.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="section-title text-center mb-40">
+                                <h2 class="text-anm">What Our Clients Say</h2>
                             </div>
-                            <!--=== Testimonial Slider Two  ===-->
-                            <div class="testimonial-slider">
-                                <!--=== Testimonial Item  ===-->
-                                <div class="sasly-testimonial-item style-two">
-                                    <div class="testimonial-thumbnail">
-                                        <img src="assets/images/testimonial/testimonial-1.jpg" alt="testimonial Thumbnail">
-                                    </div>
-                                    <div class="testimonial-content">
-                                        <div class="author-thumb-company d-flex mb-30">
-                                            <div class="author-thumb">
-                                                <img src="assets/images/testimonial/quote.png" alt="Author Image">
-                                            </div>
-                                            <div class="author-company">
-                                                <img src="assets/images/testimonial/client1.png" alt="Author Company">
-                                            </div>
-                                        </div>
-                                        <p>"Working with Your Agency has been game-changer
-                                            for the our business. Their strategic insights innovative solutions way have propelled growth satisfied."</p>
-                                        <div class="author-info-box">
-                                            <div class="author-info">
-                                                <h4>Ricardo F. Bowers</h4>
-                                                <span class="position">CEO & Founder</span>
-                                            </div>
-                                        </div>
-                                    </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-4 col-sm-6 mb-4">
+                            <div class="testimonial-card">
+                                <div class="testimonial-avatar">
+                                    <img src="assets/images/testimonial/testimonial-1.jpg" alt="testimonial Thumbnail">
                                 </div>
-                                <!--=== Testimonial Item  ===-->
-                                <div class="sasly-testimonial-item style-two">
-                                    <div class="testimonial-thumbnail">
-                                        <img src="assets/images/testimonial/testimonial-2.jpg" alt="testimonial Thumbnail">
-                                    </div>
-                                    <div class="testimonial-content">
-                                        <div class="author-thumb-company d-flex mb-30">
-                                            <div class="author-thumb">
-                                                <img src="assets/images/testimonial/quote.png" alt="Author Image">
-                                            </div>
-                                            <div class="author-company">
-                                                <img src="assets/images/testimonial/client1.png" alt="Author Company">
-                                            </div>
+                                <div class="testimonial-content">
+                                    <p>"HyperWebLabs delivered a stunning website for our company and automated several of our processes. Their team is knowledgeable and responsive."</p>
+                                    <div class="testimonial-meta">
+                                        <div class="testimonial-author">
+                                            <strong>Priya S.</strong>
+                                            <span>Business Owner</span>
                                         </div>
-                                        <p>"Working with Your Agency has been game-changer
-                                            for the our business. Their strategic insights innovative solutions way have propelled growth satisfied."</p>
-                                        <div class="author-info-box">
-                                            <div class="author-info">
-                                                <h4>Ricardo F. Bowers</h4>
-                                                <span class="position">CEO & Founder</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--=== Testimonial Item  ===-->
-                                <div class="sasly-testimonial-item style-two">
-                                    <div class="testimonial-thumbnail">
-                                        <img src="assets/images/testimonial/testimonial-1.jpg" alt="testimonial Thumbnail">
-                                    </div>
-                                    <div class="testimonial-content">
-                                        <div class="author-thumb-company d-flex mb-30">
-                                            <div class="author-thumb">
-                                                <img src="assets/images/testimonial/quote.png" alt="Author Image">
-                                            </div>
-                                            <div class="author-company">
-                                                <img src="assets/images/testimonial/client1.png" alt="Author Company">
-                                            </div>
-                                        </div>
-                                        <p>"Working with Your Agency has been game-changer
-                                            for the our business. Their strategic insights innovative solutions way have propelled growth satisfied."</p>
-                                        <div class="author-info-box">
-                                            <div class="author-info">
-                                                <h4>Ricardo F. Bowers</h4>
-                                                <span class="position">CEO & Founder</span>
-                                            </div>
+                                        <div class="testimonial-quote">
+                                            <img src="assets/images/testimonial/quote.png" alt="Quote">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </section><!--====== End Testimonial Section =======-->
+                        <div class="col-md-4 col-sm-6 mb-4">
+                            <div class="testimonial-card">
+                                <div class="testimonial-avatar">
+                                    <img src="assets/images/testimonial/testimonial-2.jpg" alt="testimonial Thumbnail">
+                                </div>
+                                <div class="testimonial-content">
+                                    <p>"Their AI chatbot has improved our customer support dramatically. We highly recommend HyperWebLabs for digital solutions."</p>
+                                    <div class="testimonial-meta">
+                                        <div class="testimonial-author">
+                                            <strong>Michael T.</strong>
+                                            <span>Operations Manager</span>
+                                        </div>
+                                        <div class="testimonial-quote">
+                                            <img src="assets/images/testimonial/quote.png" alt="Quote">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4">
+                            <div class="testimonial-card">
+                                <div class="testimonial-avatar">
+                                    <img src="assets/images/testimonial/testimonial-1.jpg" alt="testimonial Thumbnail">
+                                </div>
+                                <div class="testimonial-content">
+                                    <p>"Professional, efficient, and innovative. Our website and automation tools are now essential to our business growth."</p>
+                                    <div class="testimonial-meta">
+                                        <div class="testimonial-author">
+                                            <strong>Sara K.</strong>
+                                            <span>Startup Founder</span>
+                                        </div>
+                                        <div class="testimonial-quote">
+                                            <img src="assets/images/testimonial/quote.png" alt="Quote">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!--====== End Testimonial Section =======-->
 
                
 
@@ -719,7 +723,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <!--=== Section Title ===-->
-                                    <div class="section-title text-center mb-60">
+                                    <div class="section-title text-center mb-60" style="margin-top: 70px;">
                                         <h2 class="text-anm">Web Development Insights & Updates<br>
                                             Read Our Latest News & Blog</h2>
                                     </div>

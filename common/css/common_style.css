@@ -1243,7 +1243,7 @@ label {
 .header-navigation .main-menu ul > li > a {
   position: relative;
   display: block;
-  font: 600 18px var(--heading-font);
+  font: 600 20px var(--heading-font);
   text-transform: capitalize;
   line-height: 1;
   color: var(--heading-color);

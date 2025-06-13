@@ -42,28 +42,82 @@
             });
         }
         initStickyHeader('.header-area');
+
+        // Mobile header menu toggle
+        function initMobileHeaderMenu() {
+            var $navMenu = $('.sasly-nav-menu');
+            var $toggler = $('.navbar-toggler');
+            var $close = $('.navbar-close');
+            var $overlay = $('.offcanvas__overlay');
+
+            function openMenu() {
+                $navMenu.addClass('active');
+                $overlay.addClass('active');
+                $('body').addClass('mobile-menu-open');
+            }
+            function closeMenu() {
+                $navMenu.removeClass('active');
+                $overlay.removeClass('active');
+                $('body').removeClass('mobile-menu-open');
+            }
+
+            $toggler.on('click', function () {
+                openMenu();
+            });
+            $close.on('click', function () {
+                closeMenu();
+            });
+            $overlay.on('click', function () {
+                closeMenu();
+            });
+        }
+        initMobileHeaderMenu();
+
+        // Mobile header menu logic (new)
+        function initCustomMobileHeader() {
+            var $menuToggle = $('.mobile-menu-toggle');
+            var $menu = $('.mobile-nav-menu');
+            var $close = $('.mobile-menu-close');
+            var $overlay = $('.mobile-menu-overlay');
+
+            $menuToggle.on('click', function () {
+                $menu.addClass('active');
+                $overlay.addClass('active');
+                $('body').addClass('mobile-menu-open');
+            });
+            $close.on('click', function () {
+                $menu.removeClass('active');
+                $overlay.removeClass('active');
+                $('body').removeClass('mobile-menu-open');
+            });
+            $overlay.on('click', function () {
+                $menu.removeClass('active');
+                $overlay.removeClass('active');
+                $('body').removeClass('mobile-menu-open');
+            });
+        }
+        initCustomMobileHeader();
     });
 
     //===== Slick slider js
 
     if ($('.testimonial-slider').length) {
         $('.testimonial-slider').slick({
-            dots: false,
+            dots: true,
             arrows: false,
             infinite: true,
-            speed: 800,
+            speed: 600,
             autoplay: true,
-            variableWidth: true,
+            autoplaySpeed: 4000,
             slidesToShow: 2,
             slidesToScroll: 1,
-            prevArrow: '<div class="prev"><i class="fas fa-angle-left"></i></div>',
-            nextArrow: '<div class="next"><i class="fas fa-angle-right"></i></div>',
             responsive: [
                 {
-                    breakpoint: 767,
+                    breakpoint: 991,
                     settings: {
-                        variableWidth: false,
                         slidesToShow: 1,
+                        variableWidth: false,
+                        dots: true
                     }
                 }
             ]

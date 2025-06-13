@@ -44,13 +44,15 @@
 
         <!--====== Start Overlay ======-->
         <div class="offcanvas__overlay"></div>
+
         <!--===  Header Area  ===-->
-        <header class="header-area header-two transparent-header">
+        <header class="header-area header-two">
             <!--====  Header Navigation  ===-->
             <div class="header-navigation">
                 <!--====  Header Nav Inner  ===-->
-                <div class="nav-inner-menu">
-                    <!--====  Primary Menu  ===-->
+                <div class="container">
+                    <div class="nav-inner-menu">
+                        <!--====  Primary Menu  ===-->
                     <div class="primary-menu">
                         <!--====  Site Branding  ===-->
                         <div class="site-branding">
@@ -70,24 +72,11 @@
                             <!--=== Main Menu ===-->
                             <nav class="main-menu">
                                 <ul>
-                                    <li class="menu-item"><a href="index.html">Home</a></li>
-                                    <li class="menu-item"><a href="about.html">About</a></li>
-                                    <li class="menu-item"><a href="product.html">Products</a></li>
-                                    <li class="menu-item has-children"><a href="#">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-grid.html">Blog Grid</a></li>
-                                            <li><a href="blog-standard.html">Blog Standard</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item has-children"><a href="#">Pages</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="pricing.html">Pricing</a></li>
-                                            <li><a href="faq.html">Faq</a></li>
-                                            <li><a href="contact.html">Contact Us</a></li>
-                                            <li><a href="404.html">404</a></li>
-                                        </ul>
-                                    </li>
+                                    <li class="menu-item"><a href="index.html">Home</a></li> 
+                                    <li class="menu-item has-children"><a href="product.html">Services</a></li>
+                                    <li class="menu-item"><a href="about.html">About</a></li> 
+                                    <li><a href="contact.html">Contact Us</a></li> 
+                                    <li><a href="blog-grid.html">Blog</a></li>
                                 </ul>
                             </nav>
                             <!--=== Sasly Nav Button ===-->
@@ -120,488 +109,515 @@
                 </div>
             </div>
         </header><!--====== End Header Area ======-->
+
+    <!--====== Mobile Header (only visible on mobile) ======-->
+        <header class="mobile-header d-block d-lg-none">
+            <div class="mobile-header-inner">
+                <div class="mobile-logo">
+                    <a href="index.html"><img src="assets/images/logo/logo-main.png" alt="Brand Logo" style="height:36px;"></a>
+                </div>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div class="mobile-menu-overlay"></div>
+            <nav class="mobile-nav-menu">
+                <div class="mobile-menu-close">
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul>
+                    <li style="animation-delay:0.1s"><a href="index.html">Home</a></li>
+                    <li style="animation-delay:0.2s"><a href="product.html">Services</a></li>
+                    <li style="animation-delay:0.3s"><a href="about.html">About</a></li>
+                    <li style="animation-delay:0.4s"><a href="contact.html">Contact Us</a></li>
+                    <li style="animation-delay:0.5s"><a href="blog-grid.html">Blog</a></li>
+                </ul>
+                <a href="contact.html" class="theme-btn style-one w-100 mt-3" style="animation-delay:0.6s">Get A Quote <i class="far fa-angle-double-right"></i></a>
+                <div class="mobile-social mt-4">
+                    <a href="#" style="animation-delay:0.7s"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" style="animation-delay:0.8s"><i class="fab fa-twitter"></i></a>
+                    <a href="#" style="animation-delay:0.9s"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" style="animation-delay:1s"><i class="fab fa-youtube"></i></a>
+                </div>
+            </nav>
+        </header>
+        <!--====== End Mobile Header ======-->
+
         <!--======  Smooth Wrapper  ======-->
         <div id="smooth-wrapper">
             <div id="smooth-content">
-                <!--======  line Wrap  ======-->
-                <div class="line_wrap">
-                    <div class="line_item_one"></div>
-                    <div class="line_item"></div>
-                    <div class="line_item"></div>
-                    <div class="line_item"></div>
-                    <div class="line_item"></div>
+            <!--======  line Wrap  ======-->
+            <div class="line_wrap">
+                <div class="line_item_one"></div>
+                <div class="line_item"></div>
+                <div class="line_item"></div>
+                <div class="line_item"></div>
+                <div class="line_item"></div>
+            </div>
+            <!--======  Main  ======-->
+            <main>
+                <!--======  Start Page Banner Section  ======-->
+                <section class="page-hero-ss bg_cover" style="background-image: url(assets/images/bg/page-banner.jpg);">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-lg-12">
+                        <div class="page-content text-center">
+                        <h1 class="page-title">About Us</h1>
+                        <ul class="breadcrumb-link">
+                            <li><a href="about.html">Home</a></li>
+                            <li>About Us</li>
+                        </ul>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-                <!--======  Main  ======-->
-                <main>
-                    <!--======  Start Page Banner Section  ======-->
-                    <section class="page-hero-ss bg_cover" style="background-image: url(assets/images/bg/page-banner.jpg);">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="page-content text-center">
-                                        <h1 class="page-title">About Company</h1>
-                                        <ul class="breadcrumb-link">
-                                            <li><a href="about.html">Home</a></li>
-                                            <li>About Us</li>
-                                        </ul>
-                                    </div>
-                                </div>
+                </section><!--======  End Page Banner Section  ======-->
+                <!--======  Start About Section  ======-->
+                <section class="about-ss pt-130 pb-80">
+                <div class="container">
+                    <div class="row align-items-center">
+                    <div class="col-xl-6">
+                        <div class="section-content-box mb-50">
+                        <div class="section-title">
+                            <div class="section-title mb-40">
+                            <h2 class="text-anm">Empowering Businesses with Web Development & AI Solutions</h2>
+                            </div>
+                            <p class="mb-30" data-aos="fade-up" data-aos-duration="1000">We are a passionate web development company dedicated to building modern, scalable websites and automation solutions. Our expertise in AI-powered chatbots and automation helps businesses streamline operations, enhance customer engagement, and grow faster in the digital era.</p>
+                            <div class="row" data-aos="fade-up" data-aos-duration="1200">
+                            <div class="col-md-6">
+                                <ul class="check-list style-one mb-30">
+                                <li><i class="fas fa-badge-check"></i>Custom Web Development</li>
+                                <li><i class="fas fa-badge-check"></i>Automation Solutions</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="check-list style-one mb-30">
+                                <li><i class="fas fa-badge-check"></i>AI Chatbot Integration</li>
+                                <li><i class="fas fa-badge-check"></i>Client-Focused Approach</li>
+                                </ul>
+                            </div>
+                            </div>
+                            <div class="about-button" data-aos="fade-up" data-aos-duration="1400">
+                            <a href="index.html" class="theme-btn style-one">Learn more <i class="far fa-angle-double-right"></i></a>
                             </div>
                         </div>
-                    </section><!--======  End Page Banner Section  ======-->
-                    <!--======  Start About Section  ======-->
-                    <section class="about-ss pt-130 pb-80">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-xl-6">
-                                    <div class="section-content-box mb-50">
-                                        <div class="section-title">
-                                            <div class="section-title mb-40">
-                                                <h2 class="text-anm">Our Journey of Software Excellence</h2>
-                                            </div>
-                                            <p class="mb-30" data-aos="fade-up" data-aos-duration="1000">Discover our commitment to delivering innovative software solutions. With a passion for excellence, we empower businesses through cutting-edge technology and a customer-centric approach.</p>
-                                            <div class="row" data-aos="fade-up" data-aos-duration="1200">
-                                                <div class="col-md-6">
-                                                    <ul class="check-list style-one mb-30">
-                                                        <li><i class="fas fa-badge-check"></i>Innovation at Every Step</li>
-                                                        <li><i class="fas fa-badge-check"></i>Commitment to Quality</li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <ul class="check-list style-one mb-30">
-                                                        <li><i class="fas fa-badge-check"></i>Customer-Centric Approach</li>
-                                                        <li><i class="fas fa-badge-check"></i>Future-Ready Solutions</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="about-button" data-aos="fade-up" data-aos-duration="1400">
-                                                <a href="index.html" class="theme-btn style-one">Learn more <i class="far fa-angle-double-right"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="section-image-box mb-50">
+                        <div class="image-one">
+                            <img class=" animate-float-bob-x" src="assets/images/about/about1.jpg" alt="image">
+                        </div>
+                        <div class="image-two">
+                            <img class="animate-float-bob-y" src="assets/images/about/about2.jpg" alt="image">
+                        </div>
+                        <div class="shape">
+                            <span class="animate-float-bob-y"><img src="assets/images/about/shape1.png" alt="shape"></span>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </section><!--======  End About Section  ======-->
+                <!--====== Start Features Section  ======-->
+                <section class="features-two-ss pb-80">
+                <div class="container">
+                    <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <!--===  Feature Image Box  ===-->
+                        <div class="feature-image-box mb-50" data-aos="fade-right" data-aos-duration="1700">
+                        <img src="assets/images/features/feature1.jpg" alt="Features Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <!--===  Section Content Box  ===-->
+                        <div class="section-content-box mb-50">
+                        <!--===  Section Title  ===-->
+                        <div class="section-title">
+                            <h2 class="mb-20 text-anm">Next-Gen Web & AI Automation Services</h2>
+                        </div>
+                        <p data-aos="fade-up" data-aos-duration="1200">Our team delivers robust web platforms, custom automation, and intelligent chatbots to help your business operate efficiently and connect with customers 24/7. We focus on quality, security, and seamless user experiences.</p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                            <!--===  Sasly Iconic Box  ===-->
+                            <div class="sasly-iconic-box style-four mt-40" data-aos="fade-up" data-aos-duration="1200">
+                                <div class="icon">
+                                <i class="fas fa-check"></i>
                                 </div>
-                                <div class="col-xl-6">`
-                                    <div class="section-image-box mb-50">
-                                        <div class="image-one">
-                                            <img class=" animate-float-bob-x" src="assets/images/about/about1.jpg" alt="image">
-                                        </div>
-                                        <div class="image-two">
-                                            <img class="animate-float-bob-y" src="assets/images/about/about2.jpg" alt="image">
-                                        </div>
-                                        <div class="shape">
-                                            <span class="animate-float-bob-y"><img src="assets/images/about/shape1.png" alt="shape"></span>
-                                        </div>
-                                    </div>
+                                <div class="content">
+                                <h6>Responsive Web Design</h6>
+                                <p>Modern, mobile-friendly websites tailored to your brand and goals.</p>
                                 </div>
+                            </div>
+                            </div>
+                            <div class="col-sm-6">
+                            <!--===  Sasly Iconic Box  ===-->
+                            <div class="sasly-iconic-box style-four mt-40" data-aos="fade-up" data-aos-duration="1500">
+                                <div class="icon">
+                                <i class="fas fa-check"></i>
+                                </div>
+                                <div class="content">
+                                <h6>AI Chatbot Automation</h6>
+                                <p>Automate customer support and lead generation with smart chatbots.</p>
+                                </div>
+                            </div>
                             </div>
                         </div>
-                    </section><!--======  End About Section  ======-->
-                    <!--====== Start Features Section  ======-->
-                    <section class="features-two-ss pb-80">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6">
-                                    <!--===  Feature Image Box  ===-->
-                                    <div class="feature-image-box mb-50" data-aos="fade-right" data-aos-duration="1700">
-                                        <img src="assets/images/features/feature1.jpg" alt="Features Image">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <!--===  Section Content Box  ===-->
-                                    <div class="section-content-box mb-50">
-                                        <!--===  Section Title  ===-->
-                                        <div class="section-title">
-                                            <h2 class="mb-20 text-anm">Next-Gen Software Ultimate Solutions </h2>
-                                        </div>
-                                        <p data-aos="fade-up" data-aos-duration="1200">Our cutting-edge platform is designed to streamline your business processes, enhance productivity, and drive growth. Whether you're looking to automate tasks, improve team collaboration</p>
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <!--===  Sasly Iconic Box  ===-->
-                                                <div class="sasly-iconic-box style-four mt-40" data-aos="fade-up" data-aos-duration="1200">
-                                                    <div class="icon">
-                                                        <i class="fas fa-check"></i>
-                                                    </div>
-                                                    <div class="content">
-                                                        <h6>User-friendly interface</h6>
-                                                        <p>Services are customized they meet the needs goals</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <!--===  Sasly Iconic Box  ===-->
-                                                <div class="sasly-iconic-box style-four mt-40" data-aos="fade-up" data-aos-duration="1500">
-                                                    <div class="icon">
-                                                        <i class="fas fa-check"></i>
-                                                    </div>
-                                                    <div class="content">
-                                                        <h6>User-friendly interface</h6>
-                                                        <p>Services are customized they meet the needs goals</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
-                    </section><!--====== End Features Section  ======-->
-                    <!--====== Start Counter Section  ======-->
-                    <section class="counter-ss">
-                        <div class="counter-wrapper bg_cover pt-100 pb-60" style="background-image: url(assets/images/bg/counter-bg.jpg);">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <div class="sasly-counter-item style-one mb-40" data-aos="fade-up" data-aos-duration="1000">
-                                            <div class="content">
-                                                <h2><span class="count">15</span>K+</h2>
-                                                <p>Project Complete</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <div class="sasly-counter-item style-one mb-40" data-aos="fade-up" data-aos-duration="1200">
-                                            <div class="content">
-                                                <h2><span class="count">28</span>+</h2>
-                                                <p>Years Experience</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <div class="sasly-counter-item style-one mb-40" data-aos="fade-up" data-aos-duration="1400">
-                                            <div class="content">
-                                                <h2><span class="count">30</span>+</h2>
-                                                <p>Team Member</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <div class="sasly-counter-item style-one mb-40" data-aos="fade-up" data-aos-duration="1600">
-                                            <div class="content">
-                                                <h2><span class="count">49</span>+</h2>
-                                                <p>Awards Winning</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section><!--====== End Counter Section  ======-->
-                    <!--====== Start Why Choose Section  ======-->
-                    <section class="why-choose-ss pt-120 pb-100">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-5">
-                                    <div class="section-content-box">
-                                        <div class="section-title mb-30">
-                                            <h2 class="text-anm">Why People Choose
-                                                Sasly Company</h2>
-                                        </div>
-                                        <p class="mb-30" data-aos="fade-up" data-aos-duration="1000">Auidance to help you navigate through the myriad of options available, ensuring that the courses you choose align with your interests, skills, and long-term objectives support might come in the form</p>
-                                        <div class="faq-button" data-aos="fade-up" data-aos-duration="1200">
-                                            <a href="faq.html" class="theme-btn style-one">Get Started <i class="far fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-7">
-                                    <div class="section-content-box mb-30">
-                                        <div class="sasly-iconic-box style-seven mb-20" data-aos="fade-up" data-aos-duration="1000">
-                                            <div class="content">
-                                                <h4 class="title"><i class="far fa-tools"></i>Experience Instructors</h4>
-                                                <p>Experienced instructors are invaluable assets in the realm of education, bringing a wealth of knowledge</p>
-                                            </div>
-                                        </div>
-                                        <div class="sasly-iconic-box style-seven mb-20" data-aos="fade-up" data-aos-duration="1200">
-                                            <div class="content">
-                                                <h4 class="title"><i class="far fa-cog"></i>Advance Career Guideline</h4>
-                                                <p>Advancing your career often requires strategic approach and a clear set of guidelines to help you navigate</p>
-                                            </div>
-                                        </div>
-                                        <div class="sasly-iconic-box style-seven mb-20" data-aos="fade-up" data-aos-duration="1400">
-                                            <div class="content">
-                                                <h4 class="title"><i class="far fa-book"></i>Course Selection Support</h4>
-                                                <p>Choosing the right course can be a crucial step achieving your educational and career goals having access</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section><!--====== End Why Choose Section  ======-->
-                    <!--====== Start Team Section  ======-->
-                    <section class="team-ss pb-90">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="section-title text-center mb-40">
-                                        <h2 class="text-anm">Professional Team Members</h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row justify-content-center">
-                                <div class="col-xl-3 col-lg-4 col-sm-6">
-                                    <div class="team-item style-one mb-35" data-aos="fade-up" data-aos-duration="1000">
-                                        <div class="member-image">
-                                            <img src="assets/images/team/team1.jpg" alt="Instructor Image">
-                                            <div class="hover-content">
-                                                <ul class="social-link">
-                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li> 
-                                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="member-info">
-                                            <h4 class="title"><a href="team-details.html">Mitchell B. Roberts</a></h4>
-                                            <span class="position">Design Instructor</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-sm-6">
-                                    <div class="team-item style-one mb-35" data-aos="fade-up" data-aos-duration="1300">
-                                        <div class="member-image">
-                                            <img src="assets/images/team/team2.jpg" alt="Instructor Image">
-                                            <div class="hover-content">
-                                                <ul class="social-link">
-                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li> 
-                                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="member-info">
-                                            <h4 class="title"><a href="team-details.html">Brian H. Brumback</a></h4>
-                                            <span class="position">Tech Instructor</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-sm-6">
-                                    <div class="team-item style-one mb-35" data-aos="fade-up" data-aos-duration="1600">
-                                        <div class="member-image">
-                                            <img src="assets/images/team/team3.jpg" alt="Instructor Image">
-                                            <div class="hover-content">
-                                                <ul class="social-link">
-                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li> 
-                                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="member-info">
-                                            <h4 class="title"><a href="team-details.html">Kenneth T. Reader</a></h4>
-                                            <span class="position">Design Instructor</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-sm-6">
-                                    <div class="team-item style-one mb-35" data-aos="fade-up" data-aos-duration="1900">
-                                        <div class="member-image">
-                                            <img src="assets/images/team/team4.jpg" alt="Instructor Image">
-                                            <div class="hover-content">
-                                                <ul class="social-link">
-                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li> 
-                                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="member-info">
-                                            <h4 class="title"><a href="team-details.html">Mario C. Anderson</a></h4>
-                                            <span class="position">Art Instructor</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section><!--====== End Team Section  ======-->
-                    <!--====== Start Company Section ======-->
-                    <section class="company-ss pt-70 pb-70">
-                        <!--=== Company Wrapper ===-->
-                        <div class="container-fluid">
-                            <!--=== Company Slider ===-->
-                            <div class="company-slider">
-                                <!--=== Company Item ===-->
-                                <div class="client-item">
-                                    <div class="client-img">
-                                        <img src="assets/images/comapny/client-1.png" alt="Company Thumbnail">
-                                    </div>
-                                </div>
-                                <!--=== Company Item ===-->
-                                <div class="client-item">
-                                    <div class="client-img">
-                                        <img src="assets/images/comapny/client-2.png" alt="Company Thumbnail">
-                                    </div>
-                                </div>
-                                <!--=== Company Item ===-->
-                                <div class="client-item">
-                                    <div class="client-img">
-                                        <img src="assets/images/comapny/client-3.png" alt="Company Thumbnail">
-                                    </div>
-                                </div>
-                                <!--=== Company Item ===-->
-                                <div class="client-item">
-                                    <div class="client-img">
-                                        <img src="assets/images/comapny/client-4.png" alt="Company Thumbnail">
-                                    </div>
-                                </div>
-                                <!--=== Company Item ===-->
-                                <div class="client-item">
-                                    <div class="client-img">
-                                        <img src="assets/images/comapny/client-5.png" alt="Company Thumbnail">
-                                    </div>
-                                </div>
-                                <!--=== Company Item ===-->
-                                <div class="client-item">
-                                    <div class="client-img">
-                                        <img src="assets/images/comapny/client-6.png" alt="Company Thumbnail">
-                                    </div>
-                                </div>
-                                <!--=== Company Item ===-->
-                                <div class="client-item">
-                                    <div class="client-img">
-                                        <img src="assets/images/comapny/client-7.png" alt="Company Thumbnail">
-                                    </div>
-                                </div>
-                                <!--=== Company Item ===-->
-                                <div class="client-item">
-                                    <div class="client-img">
-                                        <img src="assets/images/comapny/client-8.png" alt="Company Thumbnail">
-                                    </div>
-                                </div>
-                                <!--=== Company Item ===-->
-                                <div class="client-item">
-                                    <div class="client-img">
-                                        <img src="assets/images/comapny/client-4.png" alt="Company Thumbnail">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section><!--====== End Company Section ======-->
-                </main>
-                <!--====== Start Footer ======-->
-                <footer class="software-footer primary-black-bg">
+                    </div>
+                    </div>
+                </div>
+                </section><!--====== End Features Section  ======-->
+                <!--====== Start Counter Section  ======-->
+                <section class="counter-ss">
+                <div class="counter-wrapper bg_cover pt-100 pb-60" style="background-image: url(assets/images/bg/counter-bg.jpg);">
                     <div class="container">
-                        <!--=== Newsletter Wrapper  ===-->
-                        <div class="newsletter-wrapper bg_cover pt-100 pb-100" data-aos="fade-up" data-aos-duration="1200" style="background-image: url(assets/images/bg/cta-bg1.png);">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-10">
-                                    <!--=== Section Content Box  ===-->
-                                    <div class="section-content-box text-white text-center">
-                                        <h2>Smart Solutions for a Dynamic Digital World</h2>
-                                        <h5>Manage All Your Cards in One Place" simplifies your financial life by bringing all your credit</h5>
-                                        <a href="contact.html" class="theme-btn style-one">Get Consultations<i class="far fa-angle-double-right"></i></a>
-                                    </div>
-                                </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="sasly-counter-item style-one mb-40" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="content">
+                            <h2><span class="count">100</span>+</h2>
+                            <p>Web Projects Delivered</p>
                             </div>
                         </div>
-                    </div>
-                    <!--=== Footer Widget Area ===-->
-                    <div class="footer-widget-area pt-100 pb-20">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-3 col-sm-6 order-lg-1">
-                                    <!--=== Footer Widget ===-->
-                                    <div class="footer-widget footer-about-widget mb-40" data-aos="fade-up" data-aos-duration="1200">
-                                        <div class="footer-content">
-                                            <div class="footer-logo">
-                                                <a href="index.html"><img src="assets/images/logo/logo-white.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <p>We take the time to understand your unique needs a goals, offering tailored advice that drives real results.</p>
-                                            <ul class="social-link">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 col-sm-12 order-lg-2 order-sm-3">
-                                    <!--=== Footer Widget ===-->
-                                    <div class="footer-widget footer-nav-widget mb-40" data-aos="fade-up" data-aos-duration="1500">
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <div class="footer-content mb-35">
-                                                    <h4 class="widget-title">Services</h4>
-                                                    <ul class="footer-nav">
-                                                        <li>
-                                                            <a href="#">Business Solutions</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">Investment Planning</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">Marketing Solutions</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">Banking & Insurance</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">Planning & Research</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <div class="footer-content mb-25">
-                                                    <h4 class="widget-title">Locations</h4>
-                                                    <p>55 Main Street, 2nd block
-                                                        Melbourne, Australia</p>
-                                                </div>
-                                                <div class="footer-content">
-                                                    <h4 class="widget-title">Get In Touch</h4>
-                                                    <p><a href="mailto:support@gmail.com">support@gmail.com</a></p>
-                                                    <p><a href="tel:+880(123)456588">+880 (123) 456 588</a></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-6 order-lg-3 order-sm-2">
-                                    <!--=== Footer Widget ===-->
-                                    <div class="footer-widget footer-newsletter-widget mb-40" data-aos="fade-up" data-aos-duration="1800">
-                                        <div class="footer-content">
-                                            <h4 class="widget-title">Subscribe Newsletter</h4>
-                                            <p>Subscribe our newsletter to get more updates </p>
-                                            <form>
-                                                <div class="form-group">
-                                                    <input type="email" class="form_control" placeholder="Email Address" name="email" required>
-                                                    <label><i class="far fa-envelope"></i></label>
-                                                    <button class="theme-btn style-one">Subscribe <i class="far fa-angle-double-right"></i></button>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="sasly-counter-item style-one mb-40" data-aos="fade-up" data-aos-duration="1200">
+                            <div class="content">
+                            <h2><span class="count">5</span>+</h2>
+                            <p>Years Experience</p>
                             </div>
                         </div>
-                    </div>
-                    <!--=== Footer Copyright ===-->
-                    <div class="footer-copyright">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="copyright-text">
-                                        <p>&copy; 2025 <span>Sasly</span> - All rights reserved.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="copyright-nav">
-                                        <ul>
-                                            <li><a href="#">Home</a></li>
-                                            <li><a href="#">About</a></li>
-                                            <li><a href="#">Privacy Policy</a></li>
-                                            <li><a href="#">Contact</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="sasly-counter-item style-one mb-40" data-aos="fade-up" data-aos-duration="1400">
+                            <div class="content">
+                            <h2><span class="count">20</span>+</h2>
+                            <p>Team Members</p>
                             </div>
                         </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="sasly-counter-item style-one mb-40" data-aos="fade-up" data-aos-duration="1600">
+                            <div class="content">
+                            <h2><span class="count">50</span>+</h2>
+                            <p>Satisfied Clients</p>
+                            </div>
+                        </div>
+                        </div>
                     </div>
-                </footer><!--====== End Footer  ======-->
+                    </div>
+                </div>
+                </section><!--====== End Counter Section  ======-->
+                <!--====== Start Why Choose Section  ======-->
+                <section class="why-choose-ss pt-120 pb-100">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-lg-5">
+                        <div class="section-content-box">
+                        <div class="section-title mb-30">
+                            <h2 class="text-anm">Why Choose Us for Your Web & AI Needs?</h2>
+                        </div>
+                        <p class="mb-30" data-aos="fade-up" data-aos-duration="1000">We combine technical expertise with a deep understanding of business needs. Our solutions are tailored, scalable, and future-ready, ensuring your business stays ahead in a rapidly evolving digital landscape.</p>
+                        <div class="faq-button" data-aos="fade-up" data-aos-duration="1200">
+                            <a href="faq.html" class="theme-btn style-one">Get Started <i class="far fa-arrow-right"></i></a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="section-content-box mb-30">
+                        <div class="sasly-iconic-box style-seven mb-20" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="content">
+                            <h4 class="title"><i class="far fa-tools"></i>Experienced Developers</h4>
+                            <p>Our skilled team delivers robust, secure, and scalable web solutions for every business size.</p>
+                            </div>
+                        </div>
+                        <div class="sasly-iconic-box style-seven mb-20" data-aos="fade-up" data-aos-duration="1200">
+                            <div class="content">
+                            <h4 class="title"><i class="far fa-cog"></i>Cutting-Edge Automation</h4>
+                            <p>We implement the latest AI and automation technologies to optimize your workflows and customer experience.</p>
+                            </div>
+                        </div>
+                        <div class="sasly-iconic-box style-seven mb-20" data-aos="fade-up" data-aos-duration="1400">
+                            <div class="content">
+                            <h4 class="title"><i class="far fa-book"></i>Dedicated Support</h4>
+                            <p>We provide ongoing support and guidance, ensuring your digital solutions continue to deliver value.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </section><!--====== End Why Choose Section  ======-->
+                <!--====== Start Team Section  ======-->
+                <section class="team-ss pb-90">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center mb-40">
+                        <h2 class="text-anm">Meet Our Expert Team</h2>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row justify-content-center">
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="team-item style-one mb-35" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="member-image">
+                            <img src="assets/images/team/team1.jpg" alt="Team Member">
+                            <div class="hover-content">
+                            <ul class="social-link">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li> 
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4 class="title"><a href="team-details.html">Alex Johnson</a></h4>
+                            <span class="position">Lead Web Developer</span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="team-item style-one mb-35" data-aos="fade-up" data-aos-duration="1300">
+                        <div class="member-image">
+                            <img src="assets/images/team/team2.jpg" alt="Team Member">
+                            <div class="hover-content">
+                            <ul class="social-link">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li> 
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4 class="title"><a href="team-details.html">Priya Sharma</a></h4>
+                            <span class="position">AI & Automation Specialist</span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="team-item style-one mb-35" data-aos="fade-up" data-aos-duration="1600">
+                        <div class="member-image">
+                            <img src="assets/images/team/team3.jpg" alt="Team Member">
+                            <div class="hover-content">
+                            <ul class="social-link">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li> 
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4 class="title"><a href="team-details.html">Michael Lee</a></h4>
+                            <span class="position">Full Stack Developer</span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="team-item style-one mb-35" data-aos="fade-up" data-aos-duration="1900">
+                        <div class="member-image">
+                            <img src="assets/images/team/team4.jpg" alt="Team Member">
+                            <div class="hover-content">
+                            <ul class="social-link">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li> 
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4 class="title"><a href="team-details.html">Sara Kim</a></h4>
+                            <span class="position">Project Manager</span>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </section><!--====== End Team Section  ======-->
+                <!--====== Start Company Section ======-->
+                <section class="company-ss pt-70 pb-70">
+                <!--=== Company Wrapper ===-->
+                <div class="container-fluid">
+                    <!--=== Company Slider ===-->
+                    <div class="company-slider">
+                    <!--=== Company Item ===-->
+                    <div class="client-item">
+                        <div class="client-img">
+                        <img src="assets/images/comapny/client-1.png" alt="Company Thumbnail">
+                        </div>
+                    </div>
+                    <!--=== Company Item ===-->
+                    <div class="client-item">
+                        <div class="client-img">
+                        <img src="assets/images/comapny/client-2.png" alt="Company Thumbnail">
+                        </div>
+                    </div>
+                    <!--=== Company Item ===-->
+                    <div class="client-item">
+                        <div class="client-img">
+                        <img src="assets/images/comapny/client-3.png" alt="Company Thumbnail">
+                        </div>
+                    </div>
+                    <!--=== Company Item ===-->
+                    <div class="client-item">
+                        <div class="client-img">
+                        <img src="assets/images/comapny/client-4.png" alt="Company Thumbnail">
+                        </div>
+                    </div>
+                    <!--=== Company Item ===-->
+                    <div class="client-item">
+                        <div class="client-img">
+                        <img src="assets/images/comapny/client-5.png" alt="Company Thumbnail">
+                        </div>
+                    </div>
+                    <!--=== Company Item ===-->
+                    <div class="client-item">
+                        <div class="client-img">
+                        <img src="assets/images/comapny/client-6.png" alt="Company Thumbnail">
+                        </div>
+                    </div>
+                    <!--=== Company Item ===-->
+                    <div class="client-item">
+                        <div class="client-img">
+                        <img src="assets/images/comapny/client-7.png" alt="Company Thumbnail">
+                        </div>
+                    </div>
+                    <!--=== Company Item ===-->
+                    <div class="client-item">
+                        <div class="client-img">
+                        <img src="assets/images/comapny/client-8.png" alt="Company Thumbnail">
+                        </div>
+                    </div>
+                    <!--=== Company Item ===-->
+                    <div class="client-item">
+                        <div class="client-img">
+                        <img src="assets/images/comapny/client-4.png" alt="Company Thumbnail">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </section><!--====== End Company Section ======-->
+            </main>
+            <!--====== Start Footer ======-->
+            <footer class="software-footer primary-black-bg">
+                <div class="container">
+                <!--=== Newsletter Wrapper  ===-->
+                <div class="newsletter-wrapper bg_cover pt-100 pb-100" data-aos="fade-up" data-aos-duration="1200" style="background-image: url(assets/images/bg/cta-bg1.png);">
+                    <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <!--=== Section Content Box  ===-->
+                        <div class="section-content-box text-white text-center">
+                        <h2>Transform Your Business with Web & AI Solutions</h2>
+                        <h5>Let us help you automate, innovate, and grow with our expert web development and AI chatbot services.</h5>
+                        <a href="contact.html" class="theme-btn style-one">Get Consultations<i class="far fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <!--=== Footer Widget Area ===-->
+                <div class="footer-widget-area pt-100 pb-20">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-lg-3 col-sm-6 order-lg-1">
+                        <!--=== Footer Widget ===-->
+                        <div class="footer-widget footer-about-widget mb-40" data-aos="fade-up" data-aos-duration="1200">
+                        <div class="footer-content">
+                            <div class="footer-logo">
+                            <a href="index.html"><img src="assets/images/logo/logo-white.png" alt="Brand Logo"></a>
+                            </div>
+                            <p>We deliver custom web development, automation, and AI chatbot solutions to help your business succeed online.</p>
+                            <ul class="social-link">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-sm-12 order-lg-2 order-sm-3">
+                        <!--=== Footer Widget ===-->
+                        <div class="footer-widget footer-nav-widget mb-40" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="row">
+                            <div class="col-sm-6">
+                            <div class="footer-content mb-35">
+                                <h4 class="widget-title">Services</h4>
+                                <ul class="footer-nav">
+                                <li>
+                                    <a href="#">Web Development</a>
+                                </li>
+                                <li>
+                                    <a href="#">Automation</a>
+                                </li>
+                                <li>
+                                    <a href="#">AI Chat Bot</a>
+                                </li>
+                                </ul>
+                            </div>
+                            </div>
+                            <div class="col-sm-6">
+                            <div class="footer-content mb-25">
+                                <h4 class="widget-title">Locations</h4>
+                                <p>55 Main Street, 2nd block
+                                Melbourne, Australia</p>
+                            </div>
+                            <div class="footer-content">
+                                <h4 class="widget-title">Get In Touch</h4>
+                                <p><a href="mailto:support@gmail.com">support@gmail.com</a></p>
+                                <p><a href="tel:+880(123)456588">+880 (123) 456 588</a></p>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 order-lg-3 order-sm-2">
+                        <!--=== Footer Widget ===-->
+                        <div class="footer-widget footer-newsletter-widget mb-40" data-aos="fade-up" data-aos-duration="1800">
+                        <div class="footer-content">
+                            <h4 class="widget-title">Subscribe Newsletter</h4>
+                            <p>Subscribe to get updates on web development and AI trends.</p>
+                            <form>
+                            <div class="form-group">
+                                <input type="email" class="form_control" placeholder="Email Address" name="email" required>
+                                <label><i class="far fa-envelope"></i></label>
+                                <button class="theme-btn style-one">Subscribe <i class="far fa-angle-double-right"></i></button>
+                            </div>
+                            </form>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <!--=== Footer Copyright ===-->
+                <div class="footer-copyright">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-md-6">
+                        <div class="copyright-text">
+                        <p>&copy; 2025 <span>Your Company</span> - All rights reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="copyright-nav">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </footer><!--====== End Footer  ======-->
                 <!--====== Back To Top  ======-->
                 <a href="#" class="back-to-top" ><i class="fas fa-angle-up"></i></a>
             </div>

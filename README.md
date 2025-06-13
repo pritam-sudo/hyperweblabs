@@ -2,7 +2,12 @@
 
 A modern, responsive landing page template for software and SaaS companies, built with HTML5, CSS3, and JavaScript. Features dynamic header effects and Lottie animations for enhanced user experience.
 
+## Version Information
 
+**Current Version:** 0.2  
+**Last Updated:** December 2023
+
+---
 
 ## Features
 

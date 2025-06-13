@@ -35,23 +35,19 @@
     </head>
     <body class="software-website">
 
-        <!--====== Start Preloader ======-->
-        <!-- <div class="preloader">
-            <div class="loader">
-                <img src="assets/images/loader.png" alt="loader">
-            </div>
-        </div> -->
-        <!--====== End Preloader ======-->
+
 
         <!--====== Start Overlay ======-->
         <div class="offcanvas__overlay"></div>
-        <!--===  Header Area  ===-->
-        <header class="header-area header-two transparent-header">
+
+       <!--===  Header Area  ===-->
+        <header class="header-area header-two">
             <!--====  Header Navigation  ===-->
             <div class="header-navigation">
                 <!--====  Header Nav Inner  ===-->
-                <div class="nav-inner-menu">
-                    <!--====  Primary Menu  ===-->
+                <div class="container">
+                    <div class="nav-inner-menu">
+                        <!--====  Primary Menu  ===-->
                     <div class="primary-menu">
                         <!--====  Site Branding  ===-->
                         <div class="site-branding">
@@ -71,24 +67,11 @@
                             <!--=== Main Menu ===-->
                             <nav class="main-menu">
                                 <ul>
-                                    <li class="menu-item"><a href="index.html">Home</a></li>
-                                    <li class="menu-item"><a href="about.html">About</a></li>
-                                    <li class="menu-item"><a href="product.html">Products</a></li>
-                                    <li class="menu-item has-children"><a href="#">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-grid.html">Blog Grid</a></li>
-                                            <li><a href="blog-standard.html">Blog Standard</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item has-children"><a href="#">Pages</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="pricing.html">Pricing</a></li>
-                                            <li><a href="faq.html">Faq</a></li>
-                                            <li><a href="contact.html">Contact Us</a></li>
-                                            <li><a href="404.html">404</a></li>
-                                        </ul>
-                                    </li>
+                                    <li class="menu-item"><a href="index.html">Home</a></li> 
+                                    <li class="menu-item has-children"><a href="product.html">Services</a></li>
+                                    <li class="menu-item"><a href="about.html">About</a></li> 
+                                    <li><a href="contact.html">Contact Us</a></li> 
+                                    <li><a href="blog-grid.html">Blog</a></li>
                                 </ul>
                             </nav>
                             <!--=== Sasly Nav Button ===-->
@@ -121,6 +104,40 @@
                 </div>
             </div>
         </header><!--====== End Header Area ======-->
+
+            <!--====== Mobile Header (only visible on mobile) ======-->
+        <header class="mobile-header d-block d-lg-none">
+            <div class="mobile-header-inner">
+                <div class="mobile-logo">
+                    <a href="index.html"><img src="assets/images/logo/logo-main.png" alt="Brand Logo" style="height:36px;"></a>
+                </div>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div class="mobile-menu-overlay"></div>
+            <nav class="mobile-nav-menu">
+                <div class="mobile-menu-close">
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul>
+                    <li style="animation-delay:0.1s"><a href="index.html">Home</a></li>
+                    <li style="animation-delay:0.2s"><a href="product.html">Services</a></li>
+                    <li style="animation-delay:0.3s"><a href="about.html">About</a></li>
+                    <li style="animation-delay:0.4s"><a href="contact.html">Contact Us</a></li>
+                    <li style="animation-delay:0.5s"><a href="blog-grid.html">Blog</a></li>
+                </ul>
+                <a href="contact.html" class="theme-btn style-one w-100 mt-3" style="animation-delay:0.6s">Get A Quote <i class="far fa-angle-double-right"></i></a>
+                <div class="mobile-social mt-4">
+                    <a href="#" style="animation-delay:0.7s"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" style="animation-delay:0.8s"><i class="fab fa-twitter"></i></a>
+                    <a href="#" style="animation-delay:0.9s"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" style="animation-delay:1s"><i class="fab fa-youtube"></i></a>
+                </div>
+            </nav>
+        </header>
+        <!--====== End Mobile Header ======-->
+
         <!--======  Smooth Wrapper  ======-->
         <div id="smooth-wrapper">
             <div id="smooth-content">
